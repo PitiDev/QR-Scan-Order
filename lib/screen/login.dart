@@ -66,7 +66,7 @@ class _LoginState extends State<Login> {
     print('==== click ${table.text}');
     if (table.text != '') {
       prefs.setString('table', table.text);
-      Navigator.pushNamed(context, '/home');
+      Navigator.pushNamed(context, '/adduser');
     } else {}
   }
 

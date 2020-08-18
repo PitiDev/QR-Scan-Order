@@ -90,7 +90,7 @@ class _OrderState extends State<Order> {
                           child: ListTile(
                             leading: CircleAvatar(
                               radius: 25,
-                              backgroundImage: AssetImage('assets/image/res.jpg'),
+                              backgroundImage: NetworkImage('http://192.168.43.37/food_api/public/${_dataOrder[index]['image']}'),
                             ),
                             title: Text(
                               '${_dataOrder[index]['name']}',

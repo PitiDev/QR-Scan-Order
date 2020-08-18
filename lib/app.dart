@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_order/screen/adduser.dart';
 import 'package:qr_order/screen/bill_success.dart';
 import 'package:qr_order/screen/cus_order.dart';
 import 'package:qr_order/screen/home.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
           '/order': (_) => Order(),
           '/Success': (_) => Success(),
           '/cus-order': (_) => CusOrder(),
-          '/bill-success': (_) => BillSuccess()
+          '/bill-success': (_) => BillSuccess(),
+          '/adduser': (_) => Register()
         });
   }
 }
